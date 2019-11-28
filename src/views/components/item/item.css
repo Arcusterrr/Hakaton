@@ -1,0 +1,35 @@
+.item{
+    background: #54545e;
+    padding: 5px;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.item:hover{
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+.item .item__image{
+    width: 100%;
+}
+
+.item .item__title{
+    text-align: center;
+    padding: 5px;
+}
+
+.item .item__description{
+    padding: 5px;
+}
+
+.item__categories::before{
+    content: "";
+    border-radius: 100%;
+    background: green;
+    padding: 4px;
+    font-size: 0px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
